@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Echoes of Change</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Echoes of Change</h1>
+        <p>Explore the voices that shaped history.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="civil-rights.html">Civil Rights</a></li>
+            <li><a href="women-rights.html">Women's Rights</a></li>
+            <li><a href="environmental.html">Environmental Activism</a></li>
+            <li><a href="lgbtq-rights.html">LGBTQ+ Rights</a></li>
+            <li><a href="labor-rights.html">Labor Rights</a></li>
+            <li><a href="modern-movements.html">Modern Movements</a></li>
+            <li><a href="quiz.html">Quiz</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <h2>Discover the Movements That Changed the World</h2>
+        <button onclick="location.href='quiz.html'">Take the Quiz</button>
+    </section>
+
+    <section class="timeline">
+        <h2>Interactive Timeline</h2>
+        <div class="timeline-container">
+            <div class="event" onclick="openMovement('civil-rights.html')">
+                <span>1950s-60s</span> Civil Rights Movement
+            </div>
+            <div class="event" onclick="openMovement('women-rights.html')">
+                <span>1800s-Present</span> Women's Rights
+            </div>
+            <div class="event" onclick="openMovement('environmental.html')">
+                <span>1960s-Present</span> Environmental Activism
+            </div>
+            <div class="event" onclick="openMovement('lgbtq-rights.html')">
+                <span>1969-Present</span> LGBTQ+ Rights
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Echoes of Change. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
