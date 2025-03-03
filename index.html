@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Echoes of Change</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <!-- Hero Section with Video Background -->
+    <header class="hero">
+        <video autoplay loop muted playsinline class="background-video">
+            <source src="videos/hero-video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="hero-text">
+            <h1>Echoes of Change</h1>
+            <p>Explore the social movements that shaped history.</p>
+            <button onclick="scrollToSection('movements')">Start Exploring</button>
+        </div>
+    </header>
+
+    <!-- Movements Section -->
+    <section id="movements">
+        <h2>Explore Social Movements</h2>
+        <div class="movement-list">
+            <a href="movements/civil-rights.html" class="movement-card">
+                <img src="images/civil-rights.jpg" alt="Civil Rights">
+                <h3>Civil Rights Movement</h3>
+                <p>Fought against racial discrimination and for equal rights in the United States, leading to historic legislation like the Civil Rights Act of 1964.</p>
+            </a>
+            <a href="movements/trans-rights.html" class="movement-card">
+                <img src="images/trans-rights.jpg" alt="Transgender Rights">
+                <h3>Transgender Rights Movement</h3>
+                <p>Advocates for the recognition, legal protection, and societal acceptance of transgender individuals across the world.</p>
+            </a>
+            <a href="movements/womens-rights.html" class="movement-card">
+                <img src="images/womens-rights.jpg" alt="Women's Rights">
+                <h3>Women's Rights Movement</h3>
+                <p>Fights for gender equality, reproductive rights, workplace rights, and freedom from gender-based violence.</p>
+            </a>
+        </div>
+    </section>
+
+    <!-- Interactive Timeline -->
+<section id="timeline">
+    <h2>Timeline of Change</h2>
+    <div class="timeline-container">
+        
+        <div class="timeline-item left womens-rights">
+            <div class="content">
+                <h3>1848 - Women's Suffrage Movement Begins</h3>
+                <p>The first women's rights convention is held in Seneca Falls, New York.</p>
+            </div>
+        </div>
+        <div class="timeline-item right womens-rights">
+            <div class="content">
+                <h3>1920 - 19th Amendment Ratified</h3>
+                <p>Women in the U.S. gain the right to vote after decades of activism.</p>
+            </div>
+        </div>
+        <div class="timeline-item left civil-rights">
+            <div class="content">
+                <h3>1954 - Brown v. Board of Education</h3>
+                <p>U.S. Supreme Court declares racial segregation in public schools unconstitutional.</p>
+            </div>
+        </div>
+        <div class="timeline-item right civil-rights">
+            <div class="content">
+                <h3>1955 - Rosa Parks Arrest</h3>
+                <p>Rosa Parks refuses to give up her seat, sparking the Montgomery Bus Boycott.</p>
+            </div>
+        </div>
+        <div class="timeline-item left civil-rights">
+            <div class="content">
+                <h3>1963 - MLK's "I Have a Dream" Speech</h3>
+                <p>Martin Luther King Jr. delivers his historic speech during the March on Washington.</p>
+            </div>
+        </div>
+        <div class="timeline-item right civil-rights">
+            <div class="content">
+                <h3>1964 - Civil Rights Act</h3>
+                <p>Bans segregation in public places and employment discrimination based on race or gender.</p>
+            </div>
+        </div>
+        <div class="timeline-item left lgbtq-rights">
+            <div class="content">
+                <h3>1969 - Stonewall Riots</h3>
+                <p>A pivotal moment in LGBTQ+ rights history, sparking the modern pride movement.</p>
+            </div>
+        </div>
+        <div class="timeline-item right lgbtq-rights">
+            <div class="content">
+                <h3>1973 - APA Removes Homosexuality as a Mental Disorder</h3>
+                <p>The American Psychiatric Association removes homosexuality from its list of mental disorders.</p>
+            </div>
+        </div>
+        <div class="timeline-item left womens-rights">
+            <div class="content">
+                <h3>1973 - Roe v. Wade</h3>
+                <p>The U.S. Supreme Court legalizes abortion, advancing women's reproductive rights.</p>
+            </div>
+        </div>
+        <div class="timeline-item right lgbtq-rights">
+            <div class="content">
+                <h3>2015 - Same-Sex Marriage Legalized</h3>
+                <p>The U.S. Supreme Court rules in Obergefell v. Hodges, granting same-sex couples the right to marry.</p>
+            </div>
+        </div>
+        <div class="timeline-item left lgbtq-rights">
+            <div class="content">
+                <h3>2016 - Obama Signs the LGBTQ+ Protection Act</h3>
+                <p>President Barak Obama strengthens anti-discrimination protections for LGBTQIA+ individuals.</p>
+            </div>
+        </div>
+        <div class="timeline-item right womens-rights">
+            <div class="content">
+                <h3>2017 - #MeToo Movement</h3>
+                <p>The Me Too movement gains global attention, advocating against sexual harassment and abuse.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <footer>
+        <a href="./movements/civil-rights.html" class="home-button">Civil Rights</a>
+        <a href="./movements/trans-rights.html" class="home-button">Trans Rights</a>
+        <a href="./movements/womens-rights.html" class="home-button">Womens Rights</a>
+        <a href="./quiz.html" class="home-button">Test Your Knowledge</a>
+        <a href="./credits.html" class="home-button">Credits</a><br>
+        <p>© 2025 Echoes of Change | ESL 1080 Rhetorical Application</p>
+    </footer>
+
+</body>
+</html>
